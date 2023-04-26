@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import './MyButton.css';
 export interface MyButtonProps {
-    children: React.ReactNode;
+    children?: React.ReactNode;
     color: string;
     big?: boolean;
 }
